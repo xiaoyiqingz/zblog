@@ -24,3 +24,6 @@ markdown: kramdown
 #none: /:categories/:title.html
 #support user define, detail see doc
 permalink: date
+
+#首页显示详情
+indexContent: true
