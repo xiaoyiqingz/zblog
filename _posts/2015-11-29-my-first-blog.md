@@ -3,6 +3,7 @@ layout: post
 title: "19 插入数据（INSERT）"
 date: 2015-11-29
 categories: database DML
+excerpt: 插入数据
 ---
 # 插入数据
 

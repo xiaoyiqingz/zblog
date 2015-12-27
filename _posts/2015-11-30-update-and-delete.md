@@ -3,6 +3,7 @@ layout: post
 title: "20.更新和删除"
 date: 2015-11-30
 categories: db DML
+excerpt: 更新和删除数据
 ---
 # 更新和删除数据
 
@@ -11,10 +12,10 @@ categories: db DML
 * 更新表中所有的行
 * 更新表中特定的行
 
-UPDATE 语句由三部分组成  
-1.  要更新的表  
-2.  列名和它们的新值(SET)  
-3.  过滤条件(WHERE)  
+UPDATE 语句由三部分组成
+1.  要更新的表
+2.  列名和它们的新值(SET)
+3.  过滤条件(WHERE)
 
 {% highlight ruby %}
 UPDATE Table

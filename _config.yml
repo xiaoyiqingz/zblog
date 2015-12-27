@@ -27,3 +27,4 @@ permalink: date
 
 #首页显示详情
 indexContent: true
+#excerpt_separator: <!--more-->
