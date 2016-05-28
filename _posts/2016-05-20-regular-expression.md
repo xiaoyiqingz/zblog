@@ -4,6 +4,10 @@ title: "Regular Expression"
 date: 2016-05-20
 categories: regular
 ---
+
+* 目录
+{:toc #regex}
+
 #PHP正则表达式
 
 ###一.php正则表达式的基础语法
