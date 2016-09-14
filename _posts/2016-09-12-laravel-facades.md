@@ -3,7 +3,7 @@ layout: post
 title: "laravel facades"
 date: 2016-09-12
 categories: laravel facades
-excerpt: larval的facades原理
+excerpt: laravel的facades原理
 ---
 # laravel Facades 是如何实现的
 
