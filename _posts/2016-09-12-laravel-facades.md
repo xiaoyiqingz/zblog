@@ -14,7 +14,7 @@ excerpt: laravel的facades原理
 
 * 所有的facade都只需要实现(基类的抽象方法getFacadeAccessor)返回一个字符串用于标示此类的service即可
 
-{% highlight ruby %}
+{% highlight ruby linenos %}
 Class Cache extends Facade
 {
     protected static getFacadeAccessor()
@@ -28,7 +28,7 @@ Class Cache extends Facade
 
 * laraval的app容器会根据键值对的方式，在初始化的时候保存每一个service,其中键与getFacadeAccessor返回的字符串相同，而值就是此sevice的一个实例,而facade基类保存了此app container
 
-{% highlight ruby %}
+{% highlight ruby linenos %}
 abstract Class Facade
 {
     protected static $app; //保存应用实例,作为container包含每一个service对应的实例
