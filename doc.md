@@ -14,3 +14,5 @@
 1. 新增list文件,记录todo lists
 2. 新增draftToPost脚本，将_drafts中的文件mv到_posts中
 
+2017-01-16:
+add jekyll template class artical
