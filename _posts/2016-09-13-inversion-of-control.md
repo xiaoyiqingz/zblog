@@ -2,7 +2,7 @@
 layout: post
 title: "Inversion Of Control"
 date: 2016-09-13
-categories: laravel, IOC, DI
+categories: laravel IOC DI
 excerpt: laravel控制反转与依赖注入
 ---
 
