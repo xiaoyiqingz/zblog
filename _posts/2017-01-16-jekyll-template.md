@@ -15,7 +15,7 @@ categories: jekyll templateclass
 
 #### 具体解析
 
-##### 1._includes/目录
+#### 1._includes/目录
 此目录主要存放一些展示性的界面，与业务数据(内容)是分离的，当前包含
 * 头部web名称:zhang's blog 与About页的链接
 * 页脚zhang's blog与邮箱，github等介绍信息
@@ -24,7 +24,8 @@ categories: jekyll templateclass
 所以我们可以通过修改_includes/中的文件修改web页头与页脚的内容
 
 #### 2._layouts/目录
-内容的模版现在主要包含的layout，page，post模版
+内容的模版现在主要包含的layout，page，post模版  
+
 1. layout
 * default模版是post,page的父模版,也是index.html的模版，default中include了head.html 与footer.html 所以所有以default为模版或父模版的都包含了head与footer
 * default模版中 `content` 就是引用了default模版的模版或数据的内容，即所有引用default的文件最终都替换了content
