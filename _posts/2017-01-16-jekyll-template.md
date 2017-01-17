@@ -53,11 +53,9 @@ categories: jekyll templateclass
 
 #### 3.css/目录
 存放main.scss目录，main.scss导入中了_sass/中的css文件
-(待了解)
 
 #### 4._sass/
-存放css文件
-(待了解)
+存放css文件, jekyll的css使用了sass框架，详见 [sass 官网](http://sass-lang.com/)
 
 #### 5._site/
 最终web解释后的文件存放的目录
