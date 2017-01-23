@@ -2,7 +2,7 @@
 layout: post
 title: "laravel model mutator"
 date: 2016-09-14
-categories: laravel model mutator
+categories: laravel
 excerpt: laravel的model中新增自定义属性，或者对字段强制转换
 ---
 

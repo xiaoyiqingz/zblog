@@ -2,7 +2,7 @@
 layout: post
 title: "php magic methods and constants"
 date: 2016-09-22
-categories: PHP magic methods magic constants
+categories: PHP
 excerpt: PHP 中的魔术方法与魔术变量
 ---
 
