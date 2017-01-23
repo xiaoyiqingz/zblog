@@ -6,6 +6,7 @@
 #########################################################################
 #!/bin/bash
 
+base=~/zblog/
 file=$1;
 date=$2;
 
@@ -13,7 +14,7 @@ if [ ! "$date" ];then
     date=$(date +%Y-%m-%d)
 fi
 
-from="_drafts/""$file";
-to="_posts/""$date""-""$file";
+from="$base""_drafts/""$file";
+to="$base""_posts/""$date""-""$file";
 mv  $from $to;
 
