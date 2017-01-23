@@ -1,0 +1,14 @@
+---
+layout: default
+title: Category
+---
+
+{% for category in site.categories %}
+    <h2>{{ category | first }}</h2>
+    </span>{{ category | last | size }}</span>
+    <ul class="arc-list">
+        {% for post in category.last %}
+        <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>({{ post.date | date:"%d/%m/%Y"}})</li>
+        {% endfor %}
+    </ul>
+{% endfor %}
