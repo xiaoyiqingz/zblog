@@ -28,3 +28,10 @@ permalink: date
 #首页显示详情
 indexContent: true
 #excerpt_separator: <!--more-->
+
+# 忽略文件或者目录，不会在_site中生成
+exclude:
+    - utils
+    - doc
+    - README.md
+    - Rakefile
