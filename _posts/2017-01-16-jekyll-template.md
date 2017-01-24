@@ -2,7 +2,7 @@
 layout: post
 title: "jekyll 模版引擎解析"
 date: 2017-01-16
-categories: jekyll templateclass
+categories: jekyll
 ---
 
 #### 相关目录

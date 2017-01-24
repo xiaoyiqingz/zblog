@@ -2,7 +2,7 @@
 layout: post
 title: "21.创建和操纵表"
 date: 2015-12-27
-categories: database DDL
+categories: database
 excerpt: 表的创建、更改、删除和重命名
 ---
 

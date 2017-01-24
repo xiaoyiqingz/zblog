@@ -2,7 +2,7 @@
 layout: post
 title: "20.更新和删除"
 date: 2015-11-30
-categories: database DML
+categories: database
 excerpt: 更新和删除数据
 ---
 # 更新和删除数据
