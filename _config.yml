@@ -32,8 +32,8 @@ indexContent: true
 #gems
 gems: [jekyll-paginate]
 # 分页
-paginate: 10
-paginate_path: "zblog/page:num"
+paginate: 8
+paginate_path: "/page:num"
 
 # 忽略文件或者目录，不会在_site中生成
 exclude:
