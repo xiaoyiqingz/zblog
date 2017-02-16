@@ -15,6 +15,9 @@ url: "http://xiaoyiqingz.github.io" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
 github_username:  xiaoyiqingz
 
+#google analyze
+google_analytics: UA-92078299-1
+
 # Build settings
 markdown: kramdown
 
