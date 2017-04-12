@@ -37,7 +37,12 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
-
+/**
+ * 首行缩进
+ */
+p{
+    text-indent: 2em;
+}
 
 /**
  * Images
