@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Http-socket"
+title: "Http 权威指南(1)"
 date:
-categories: http socket
+categories: http
 ---
 
 #### URI URL URN
