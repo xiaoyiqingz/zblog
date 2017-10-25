@@ -3,6 +3,7 @@ layout: post
 title: "Http 权威指南(1)"
 date: 2017-06-12
 categories: http
+excerpt: http url与urn解析
 ---
 
 #### URI URL URN
