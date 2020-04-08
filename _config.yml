@@ -33,7 +33,10 @@ indexContent: true
 #excerpt_separator: <!--more-->
 
 #gems
-gems: [jekyll-paginate]
+#gems: [jekyll-paginate]
+
+#plugins
+plugins: [jekyll-paginate]
 # 分页
 paginate: 8
 paginate_path: "/page:num"
@@ -44,3 +47,4 @@ exclude:
     - doc
     - README.md
     - Rakefile
+    - .jekyll-cache/

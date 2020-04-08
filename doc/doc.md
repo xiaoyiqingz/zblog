@@ -1,5 +1,7 @@
 1. 启动jekyll服务 jekyll serve(s)   [帮助手册 jekyll help]
    vagrant 中加 -H 0.0.0.0 指定host
+   目前docker中 jekyll serve -H 0.0.0.0 -P 8080
+   本地docker容器(docker run -itd --name=jekyll -v /src/path/to/zblog:/dst -p 127.0.0.1:8085:8080  jekyll:v1 /bin/bash)
 2. 生成新的_post文章 ：rake post title="hello world" date="2016-05-10" (date 是可选参数)
    生成新的_draft文章：rake draft title="hello world"
 
